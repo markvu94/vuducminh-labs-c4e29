@@ -18,7 +18,7 @@ json_title = []
 
 for td in td_title_list:
     if td["class"] == ["b_r_c"]:
-        title = td.div.a.string.strip()  
+        title = td.div.a.string.strip()  #luu y: day la khi chon Truoc, neu chon Sau se phai chon a so 2 (create list)
         json_title.append(title)        
     if td["class"] == ["h_t"]:
         title = td.string.strip()
